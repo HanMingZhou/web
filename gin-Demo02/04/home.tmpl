@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html long="zh-CN">
+<head>
+    <title>模板继承</title>
+    <style>
+        *{
+            margin : 0;
+        }
+        .nav {
+            height : 50px;
+            positon : fixed;
+            top : 0;
+            background-color : burlywood;
+        }
+        .main {
+            margin-top : 50px;
+        }
+        .menu {
+            width : 20%;
+            height : 100%
+            positon : fixed;
+            left : 0;
+            background-color : conrnflowerblue;
+        }
+         .center{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+  
+<div.class="nav"></div>
+<div.class="main">
+    <div.class="menu"></div>
+    <div.class="content center">
+        <h1>这是home页面</h1>
+        <p>hello {{ . }}</p>
+    </div>
+</div>
+
+</body>
+</html>
